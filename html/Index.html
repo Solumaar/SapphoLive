@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Início - Sappho</title>
+
+    <link rel="stylesheet" href="../Css/style.css">
+    <script src="../Js/indexjs.js" defer></script>
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <!-- Links principais de navegação -->
+        <nav class="nav-links">
+
+            <a href="#home">Início</a>
+            <a href="#series">Séries</a>
+            <a href="#movies">Filmes</a>
+            <a href="#categories">Categorias</a>
+
+            <!-- Menu dropdown -->
+            <div class="dropdown">
+
+                <button
+                    type="button"
+                    class="btn-more"
+                    id="btnMore"
+                    aria-expanded="false"
+                    aria-controls="dropdownMenu">
+
+                    Mais <span class="arrow">▼</span>
+
+                </button>
+
+                <!-- Submenu -->
+                <ul class="dropdown-menu" id="dropdownMenu">
+
+                    <li><a href="#bombando">Bombando</a></li>
+                    <li><a href="#minha-lista">Minha Lista</a></li>
+                    <li><a href="#idiomas">Navegar por Idiomas</a></li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <!-- Ações do usuário -->
+        <div class="nav-actions">
+
+            <!-- Campo de busca -->
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    placeholder="Títulos, ano e gêneros"
+                    maxlength="80"
+                    aria-label="Pesquisar títulos, pessoas e gêneros">
+                    <button type="button" aria-label="Buscar">🔍</button>
+
+            </div>
+
+            <!-- Notificações -->
+            <button
+                type="button"
+                aria-label="Notificações"
+                class="btn-notification">🔔<span class="badge"></span>
+            </button>
+
+            <!-- Perfil do usuário -->
+            <button
+                type="button"
+                class="btn-profile"
+                aria-label="Perfil do usuário">
+                 <img
+                    src="https://occ-0-1302-3852.1.nflxso.net/dnm/api/v6/SO2HoVCx33X8phZh2pZZmQ4QgNY/AAAABawpGJLQSk82EHg2KbMAaXPGOlYx1Q43y-MEhpmXftulhkZFmUXFil9xApd8MQQg9Zw2YCCFNCbymQZVS5fkMzBhkUUQFko.png?r=e31"
+                    alt="Foto do perfil">
+
+            </button>
+        </div>
+    </header>
+
+
+
+</body>
+</html>
